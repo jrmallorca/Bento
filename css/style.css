@@ -20,7 +20,9 @@
     to make the filter to your own */
 
     /* --imgbg: url(/img/wal.jpg); */
-    --imgcol: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+    --imgcol: linear-gradient(
+    	rgba(0, 0, 0, 0.8),
+	rgba(0, 0, 0, 0.8)
     );
 }
 @media only screen and (max-width: 68.75em) {
@@ -40,6 +42,7 @@
     --imgcol: linear-gradient(
         rgba(255, 255, 255, 0.8),
         rgba(255, 255, 255, 0.8)
+    );
 }
 
 * {
